@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav
+{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: #fff;
+}
+
+.navbar-nav ul li{
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#banner{
+    position: relative;
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.title{
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.ban-img{
+    position: relative;
+    z-index: 1000;
+}
+
+.wave{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+}
+
+ #features{
+    padding: 80px 0;
+}
+
+.features{
+    padding: 20px;
+}
+
+.features img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.features h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+

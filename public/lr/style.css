@@ -1,0 +1,55 @@
+html, body{
+    height: 100%;
+    background-color: #e7e7fd !important;
+
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5A5AF3 !important;
+}
+
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: #e7e7fd !important;
+    border-radius: px !important;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+
+    background: #fff;
+    color: #fff;
+    border: 2px solid #5A5AF3;
+    border-radius: 1opx;
+    margin-bottom: 25px;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #5A5AF3;
+    color: #fff;
+    margin: 0;
+}
+
+.card-title{
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.btn{
+   background-color: #5A5AF3 !important;
+   color: #000 !important;
+   transform: translateY(10px);
+   font-size: 14px;
+   border-radius: 10px;
+}
